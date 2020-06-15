@@ -2,6 +2,31 @@
 Changelog for package ros1_ign_gazebo_demos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.2 (2020-05-14)
+------------------
+
+0.9.1 (2020-05-13)
+------------------
+* Merge pull request `#71 <https://github.com/osrf/ros_ign/issues/71>`_ from ignitionrobotics/0_9_0gazebo2_fix
+  Fix gazebo version in package.xml files
+* Contributors: Nate Koenig
+
+0.9.0 (2020-05-13)
+------------------
+* Corrected error in launch (`#66 <https://github.com/ignitionrobotics/ros_ign/issues/66>`_)
+* ros_ign_gazebo package, with launch and spawn (`#60 <https://github.com/ignitionrobotics/ros_ign/issues/60>`_)
+  * create ros_ign_gazebo package and move ign_gazebo exec and launch files there
+  * Port create executable from create branch - ROS interface to spawn entities
+  * use correct gflags key
+  * PR feedback
+* [Citadel] Citadel support (`#48 <https://github.com/ignitionrobotics/ros_ign/issues/48>`_)
+  * Citadel support
+  * more citadel deps
+  * addressing feedback, fix typos and better find logic
+  * fix CI
+* Correct demo frame names (`#54 <https://github.com/ignitionrobotics/ros_ign/issues/54>`_)
+* Contributors: John, RDaneelOlivav, chapulina
+
 0.8.0 (2019-11-22)
 ------------------
 * Add replaces for each package (`#46 <https://github.com/osrf/ros_ign/issues/46>`_)

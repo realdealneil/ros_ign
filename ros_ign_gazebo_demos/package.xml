@@ -1,13 +1,13 @@
 <package format="2">
   <name>ros_ign_gazebo_demos</name>
-  <version>0.8.0</version>
+  <version>0.9.2</version>
   <description>Demos using Ignition Gazebo simulation with ROS.</description>
   <license>Apache 2.0</license>
   <maintainer email="louise@openrobotics.org">Louise Poubel</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <depend>ignition-gazebo3</depend>
+  <depend>ignition-gazebo2</depend>
   <exec_depend>image_transport_plugins</exec_depend>
   <exec_depend>ros_ign_bridge</exec_depend>
   <exec_depend>ros_ign_gazebo</exec_depend>
